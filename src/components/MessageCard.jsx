@@ -13,19 +13,19 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[Bubu],
 
-Your personalized birthday message goes here.
+Many many happy returns of the day.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+May the days ahead be filled with joy, peace and everything that brings a sparkle to your eye.
+On your birthday,I hope you feel not only celebrated but also deeply loved and appreciated for the wonderful person you are.
+May this new year be filled with moments that make your heart smile and memories you'll cherish forever.
+Cheers to you and another trip around the sun! May your story continue to be bright, bold and beautifully you.
+You deserve all the hapiness in the world, today and always.
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— [Bobo]`;
 
   // Handle page transitions
   useEffect(() => {
